@@ -1,0 +1,67 @@
+h1{
+	background-color:black;
+	padding:10px;
+	color:white;'
+	border-color:#252525;
+	border-radius:10px;
+	border-style:outset;
+
+}
+#content{
+	border-radius:15px;
+	border-color:#252525;
+	padding:15px;
+	border-style:outset;
+	/*border-bottom-width:10px;*/
+}
+.container img{
+	height:20px;
+	width:20px;
+}
+#reminder{
+	background-color: black;
+	border-radius:10px;
+	border-style:double;
+}
+#products{
+	font-style:roboto;
+	border-radius:15px;
+	font-size:20px;
+	background-color:black;
+}
+.last{
+  border-top: 10px solid white;
+}
+.lasts{
+  border-top: 15px solid white;
+}
+.longer{
+  border-top: 20px solid white;
+}
+.longest{
+  border-top: 300px solid white;
+}
+
+/* Default styles */
+/* ... */
+
+/* Styles for smaller screens */
+@media (max-width: 768px) {
+  /* Adjust content styles for smaller screens */
+  /* ... */
+}
+
+/* Styles for medium-sized screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+  /* Adjust content styles for medium-sized screens */
+  /* ... */
+}
+
+/* Styles for larger screens */
+@media (min-width: 1025px) {
+  /* Adjust content styles for larger screens */
+  /* ... */
+}
+
+
+
