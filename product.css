@@ -17,6 +17,13 @@ h1{
 .container img{
 	height:20px;
 	width:20px;
+	animation:scale;
+	animation-duration:4s;
+	animation-iteration-count:infinite;
+}
+@keyframes scale{
+	50%{transform:scale(2,2);}
+	100%{transform:scale(1,1);}
 }
 #reminder{
 	background-color: black;
